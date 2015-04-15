@@ -22,9 +22,13 @@
 			</div>
 			<div class="right">
 				<span>登录</span>
+				<div class="right_diver"></div>
 				<span>注册</span>
+				<div class="right_diver"></div>
 				<span>积分兑换</span>
+				<div class="right_diver"></div>
 				<span>帮助中心</span>
+				<div class="right_diver"></div>
 				<div class="right_for_image">
 					<a href="#">
 						<img src="/web_oppo/Public/Home/image/Index/i-h-gwc.png">
