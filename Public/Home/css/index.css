@@ -60,14 +60,6 @@ body{
 	float: right;
 }
 
-.index_header .index_header_container .right span{
-	font-size: 13px;
-	color: #B2B2B2;
-	line-height: 38px;
-	cursor: pointer;
-	float: left;
-}
-
 .index_header .index_header_container .right .right_for_image{
 	margin-top: 7px;
 	float: left;
@@ -84,12 +76,20 @@ body{
 	margin-top: 5px;
 }
 
+.index_header .index_header_container .right span{
+	font-size: 13px;
+	color: #B2B2B2;
+	line-height: 38px;
+	cursor: pointer;
+	float: left;
+}
+
 .index_header .index_header_container .right span:hover{
 	font-size: 13px;
 	color: #00927F;
 	line-height: 38px;
-	margin-left: 10px;
-	margin-right: 10px;
+	cursor: pointer;
+	float: left;
 }
 
 /* END: 头部 */
