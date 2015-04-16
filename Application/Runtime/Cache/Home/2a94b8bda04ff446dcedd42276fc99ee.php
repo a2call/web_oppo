@@ -2,7 +2,6 @@
 <html>
 <head>
 	<meta charset="utf8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<title>OPPO手机官网-OPPO智能手机 OPPO最新款智能手机在线订购</title>
 	<link rel="stylesheet" type="text/css" href="/web_oppo/Public/Home/css/index.css">
 	<script type="text/javascript" src="http://cdn.bootcss.com/jquery/2.1.3/jquery.js"></script>
@@ -16,7 +15,7 @@
 						<img src="/web_oppo/Public/Home/image/Index/i-h-sinawb.png" id="index_header_left_image_1">
 					</a>
 					<a href="#">
-						<img src="/web_oppo/Public/Home/image/Index/i-h-qqwb.png">
+						<img src="/web_oppo/Public/Home/image/Index/i-h-qqwb.png" id="index_header_left_image_2">
 					</a>
 				</div>
 				<span>4001-666-888</span>
@@ -46,4 +45,5 @@
 		
 	</div>
 </body>
+<script type="text/javascript" src="/web_oppo/Public/Home/js/Index/index.js"></script>
 </html>
