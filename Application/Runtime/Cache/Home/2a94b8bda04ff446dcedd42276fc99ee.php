@@ -21,20 +21,18 @@
 				<span>4001-666-888</span>
 			</div>
 			<div class="right">
-				<span>登录</span>
+				<a href="/web_oppo/index.php/Login/index">登录</a>
 				<div class="right_diver"></div>
-				<span>注册</span>
+				<a href="/web_oppo/index.php/Register/index">注册</a>
 				<div class="right_diver"></div>
-				<span>积分兑换</span>
+				<a>积分兑换</a>
 				<div class="right_diver"></div>
-				<span>帮助中心</span>
+				<a>帮助中心</a>
 				<div class="right_diver"></div>
 				<div class="right_for_image">
-					<a href="#">
-						<img src="/web_oppo/Public/Home/image/Index/i-h-gwc.png">
-					</a>
+					<img src="/web_oppo/Public/Home/image/Index/i-h-gwc.png">
 				</div>
-				<span>购物车</span>
+				<a>购物车</a>
 			</div>
 		</div>
 	</div>

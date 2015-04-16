@@ -84,7 +84,7 @@ body{
 	margin-top: 5px;
 }
 
-.index_header .index_header_container .right span{
+.index_header .index_header_container .right a{
 	font-size: 13px;
 	color: #B2B2B2;
 	line-height: 38px;
@@ -92,12 +92,11 @@ body{
 	float: left;
 }
 
-.index_header .index_header_container .right span:hover{
+.index_header .index_header_container .right a:hover{
 	font-size: 13px;
 	color: #00927F;
 	line-height: 38px;
 	cursor: pointer;
 	float: left;
 }
-
 /* END: 头部 */
