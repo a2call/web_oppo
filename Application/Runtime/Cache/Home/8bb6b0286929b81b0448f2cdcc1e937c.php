@@ -4,6 +4,7 @@
 	<meta charset="utf8">
 	<title>OPPO官方网站-欢迎注册OPPO.COM</title>
 	<link rel="stylesheet" type="text/css" href="/web_oppo/Public/Home/css/register.css">
+	<script type="text/javascript" src="/web_oppo/Public/Home/js/jquery.js"></script>
 </head>
 <body>
 	<div class="header">
@@ -17,7 +18,7 @@
 			<div class="right">
 				<a href="/web_oppo/index.php/Home/Login/index">登录</a>
 				<div class="divider"></div>
-				<a href="/web_oppo/index.php/Home/Index/index">My OPPO</a>
+				<a href="/web_oppo/index.php/Home/Index/index">MY OPPO</a>
 			</div>
 		</div>
 	</div>
@@ -28,4 +29,5 @@
 		
 	</div>
 </body>
+<script type="text/javascript" src="/web_oppo/Public/Home/js/Register/index.js"></script>
 </html>

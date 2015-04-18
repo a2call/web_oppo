@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: '微软雅黑';
+}
+
+body{
+	background: #FFF;
+}
+
+img{
+	border: none;
+}
+
+.header{
+	width: 100%;
+	height: 90px;
+	border-top: 3px solid #00927F;
+	border-bottom: 3px solid #E1E1E1; 
+}
+
+.header .container{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.header .left{
+	width: 260px;
+	height: 100%;
+	float: left;
+}
+
+.header .left .left_img_1{
+	padding-top: 34px;
+	padding-bottom: 30px;
+	cursor: pointer;
+	float: left;
+}
+
+.header .left .divider{
+	width: 2px;
+	height: 26px;
+	background: #DADADA;
+	float: left;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	margin-left: 14px;
+	margin-right: 14px;
+}
+
+.header .left span{
+	font-size: 14px;
+	color: #727272;
+	float: left;
+	line-height: 88px;
+	padding-bottom: 2px;
+}
+
+.header .right{
+	width: 150px;
+	height: 100%;
+	float: right;
+}
+
+.header .right .divider{
+	width: 2px;
+	height: 20px;
+	background: #DADADA;
+	float: left;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	margin-left: 14px;
+	margin-right: 14px;
+}
+
+.header .right a{
+	color: #000000;
+	font-size: 15px;
+	float: left;
+	line-height: 90px;
+}
+
+.header .right a:hover{
+	color: #00927F;
+	font-size: 15px;
+	text-decoration: underline;
+	float: left;
+	line-height: 90px;
+};
