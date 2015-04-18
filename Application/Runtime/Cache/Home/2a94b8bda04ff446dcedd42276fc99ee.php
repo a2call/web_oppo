@@ -21,9 +21,9 @@
 				<span>4001-666-888</span>
 			</div>
 			<div class="right">
-				<a href="/web_oppo/index.php/Login/index">登录</a>
+				<a href="/web_oppo/index.php/Home/Login/index">登录</a>
 				<div class="right_diver"></div>
-				<a href="/web_oppo/index.php/Register/index">注册</a>
+				<a href="/web_oppo/index.php/Home/Register/index">注册</a>
 				<div class="right_diver"></div>
 				<a>积分兑换</a>
 				<div class="right_diver"></div>
