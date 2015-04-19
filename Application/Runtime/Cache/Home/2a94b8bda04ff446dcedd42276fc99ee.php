@@ -20,20 +20,39 @@
 				</div>
 				<span>4001-666-888</span>
 			</div>
-			<div class="right">
-				<a href="/web_oppo/index.php/Home/Login/index">登录</a>
-				<div class="right_diver"></div>
-				<a href="/web_oppo/index.php/Home/Register/index">注册</a>
-				<div class="right_diver"></div>
-				<a>积分兑换</a>
-				<div class="right_diver"></div>
-				<a>帮助中心</a>
-				<div class="right_diver"></div>
-				<div class="right_for_image">
-					<img src="/web_oppo/Public/Home/image/Index/i-h-gwc.png">
+			<?php if(isset($_SESSION['id'])): ?><div class="right">
+					<a href="/web_oppo/index.php/Home/Login/index">登录</a>
+					<div class="right_diver"></div>
+					<a href="/web_oppo/index.php/Home/Register/index">注册</a>
+					<div class="right_diver"></div>
+					<a>积分兑换</a>
+					<div class="right_diver"></div>
+					<a>帮助中心</a>
+					<div class="right_diver"></div>
+					<div class="right_for_image">
+						<img src="/web_oppo/Public/Home/image/Index/i-h-gwc.png">
+					</div>
+					<a>购物车</a>
 				</div>
-				<a>购物车</a>
-			</div>
+			<?php else: ?>
+				<div class="right_1">
+					<a href="#">用户名</a>
+					<div class="right_diver"></div>
+					<a href="#">退出</a>
+					<div class="right_diver"></div>
+					<a href="#">积分兑换</a>
+					<div class="right_diver"></div>
+					<a href="#">帮助中心</a>
+					<div class="right_diver"></div>
+					<a href="#">我的订单</a>
+					<div class="right_diver"></div>
+					<a href="#">MY OPPO</a>
+					<div class="right_diver"></div>
+					<div class="right_for_image">
+						<img src="/web_oppo/Public/Home/image/Index/i-h-gwc.png">
+					</div>
+					<a>购物车</a>
+				</div><?php endif; ?>
 		</div>
 	</div>
 	<div class="index_header2">

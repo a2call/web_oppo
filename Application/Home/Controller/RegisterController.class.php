@@ -16,6 +16,10 @@ class RegisterController extends Controller {
     	return $Verify->entry();
     }
 
+    public function showSession(){
+        var_dump($_SESSION);
+    }
+
     public function check_username(){
         $username =  $_POST['username'];
         $sql = M('user');

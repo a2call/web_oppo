@@ -99,4 +99,50 @@ body{
 	cursor: pointer;
 	float: left;
 }
+
+.index_header .index_header_container .right_1{
+	width: 550px;
+	height: 38px;
+	float: right;
+}
+
+.index_header .index_header_container .right_1 a{
+	font-size: 13px;
+	color: #B2B2B2;
+	line-height: 38px;
+	cursor: pointer;
+	float: left;
+}
+
+.index_header .index_header_container .right_1 a:hover{
+	font-size: 13px;
+	color: #00927F;
+	line-height: 38px;
+	cursor: pointer;
+	float: left;
+}
+
+.index_header .index_header_container .right_1 .right_diver{
+	width: 1px;
+	height: 16px;
+	background: #474747;
+	float: left;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 12px;
+}
+
+.index_header .index_header_container .right_1 .right_for_image{
+	margin-top: 9px;
+	margin-right: 5px;
+	float: left;
+}
+
+.index_header .index_header_container .right_1 .right_for_image a{
+}
+
+.index_header .index_header_container .right_1 .right_for_image a img{
+	border: none;
+}
+
 /* END: 头部 */

@@ -18,10 +18,15 @@ $('#submit').click(function(){
 	var username = $('#body_1_form_1_input').val();
 	var passwd = $('#body_1_form_2_input').val();
 	var password = $.md5(passwd);
+	var hello = $.md5($('#body_1_form_4_input').val());
 	var data = {"username":username, "passwd":password};
 	$.post("insert",data, function(d){
 		if(d == 'ok'){
 			window.location.href="http://localhost/web_oppo/index.php/Home/Index/index";
 		}
 	});
+});
+
+$('#body_1_form_4_img').click(function(){
+	$(this).attr("src", "http://localhost/web_oppo/index.php/Home/Register/VerifyCode?Math.random()");
 });
