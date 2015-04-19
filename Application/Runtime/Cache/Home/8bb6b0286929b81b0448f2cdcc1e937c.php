@@ -47,7 +47,7 @@
 				<div class="body_1_form_4">
 					<span class="form_left_span">图片验证码:</span>
 					<input type="text" placeholder="验证码" id="body_1_form_4_input">
-					<img src="#">
+					<img src="/web_oppo/index.php/Home/Register/VerifyCode">
 				</div>
 				<div class="body_1_form_5">
 					<img src="/web_oppo/Public/Home/image/Register/checkboxX.png">
@@ -59,7 +59,21 @@
 		</div>
 	</div>
 	<div class="bottom">
-		
+		<div class="container">
+			<div class="left">
+				<img src="/web_oppo/Public/Home/image/Register/logo_f.png">
+				<span>© 2005 - 2015 广东欧珀电子工业有限公司 版权所有 (</span>
+				<a href="#">粤ICP备 08130115 号</a>
+				<span>)</span>
+			</div>
+			<div class="right">
+				<a href="#">版权说明</a>
+				<a href="#">使用协议</a>
+				<a href="#">网站地图</a>
+				<a href="#">友情链接</a>
+				<a href="#">联系我们</a>
+			</div>
+		</div>
 	</div>
 </body>
 <script type="text/javascript" src="/web_oppo/Public/Home/js/Register/index.js"></script>
