@@ -50,7 +50,7 @@
 					<img src="/web_oppo/index.php/Home/Register/VerifyCode">
 				</div>
 				<div class="body_1_form_5">
-					<img src="/web_oppo/Public/Home/image/Register/checkboxX.png">
+					<img src="/web_oppo/Public/Home/image/Register/checkboxX.png" id="body_1_form_5_image">
 					<span>我已阅读并同意</span>
 					<a href="#">《OPPO服务协议》</a>
 				</div>
