@@ -46,15 +46,15 @@
 				</div>
 				<div class="body_1_form_4">
 					<span class="form_left_span">图片验证码:</span>
-					<input type="text" placeholder="验证码">
+					<input type="text" placeholder="验证码" id="body_1_form_4_input">
 					<img src="#">
 				</div>
 				<div class="body_1_form_5">
-					<img src="#">
+					<img src="/web_oppo/Public/Home/image/Register/checkboxX.png">
 					<span>我已阅读并同意</span>
 					<a href="#">《OPPO服务协议》</a>
 				</div>
-				<button type="submit">同意协议并注册</button>
+				<button type="submit" class="submit">同意协议并注册</button>
 			</form>
 		</div>
 	</div>
