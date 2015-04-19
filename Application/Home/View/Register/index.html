@@ -5,6 +5,7 @@
 	<title>OPPO官方网站-欢迎注册OPPO.COM</title>
 	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/register.css">
 	<script type="text/javascript" src="__PUBLIC__/Home/js/jquery.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/Home/js/jquery.md5.js"></script>
 </head>
 <body>
 	<div class="header">
@@ -30,15 +31,15 @@
 				<a href="__APP__/Home/Login/index">点此登录</a>
 				<span id="body_1_header_for_normal">)</span>
 			</div>
-			<form>
+			<form method="post" action="__CONTROLLER__/insert">
 				<div class="body_1_form_1">
 					<span class="form_left_span" id="form_left_span1">登录名:</span>
-					<input type="text" placeholder="手机/邮箱">
+					<input type="text" placeholder="手机/邮箱" id="body_1_form_1_input" maxlength="16" name="username">
 					<span id="form_1_info_1">(目前仅支持移动、联通手机号码段)</span>
 				</div>
 				<div class="body_1_form_2">
 					<span class="form_left_span" id="form_left_span2">登录密码:</span>
-					<input type="password" placeholder="6~16位数字、字母或字符组合的密码" maxlength="16">
+					<input type="password" placeholder="6~16位数字、字母或字符组合的密码" maxlength="16" name="passwd" id="body_1_form_2_input">
 				</div>
 				<div class="body_1_form_3">
 					<span class="form_left_span" id="form_left_span3">确认密码:</span>
@@ -54,7 +55,7 @@
 					<span>我已阅读并同意</span>
 					<a href="#">《OPPO服务协议》</a>
 				</div>
-				<button type="submit" class="submit">同意协议并注册</button>
+				<input type="button" id="submit" value="同意协议并注册">
 			</form>
 		</div>
 	</div>

@@ -261,7 +261,7 @@ img{
 	float: left;
 }
 
-.body_1 .submit{
+.body_1 #submit{
 	width: 290px;
 	height: 40px;
 	background: #409F73;
