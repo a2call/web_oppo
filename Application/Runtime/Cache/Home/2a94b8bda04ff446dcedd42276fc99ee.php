@@ -20,7 +20,7 @@
 				</div>
 				<span>4001-666-888</span>
 			</div>
-			<?php if(isset($_SESSION['id'])): ?><div class="right">
+			<?php if(!isset($_SESSION['id'])): ?><div class="right">
 					<a href="/web_oppo/index.php/Home/Login/index">登录</a>
 					<div class="right_diver"></div>
 					<a href="/web_oppo/index.php/Home/Register/index">注册</a>

@@ -49,9 +49,10 @@
 					<span class="form_left_span">图片验证码:</span>
 					<input type="text" placeholder="验证码" id="body_1_form_4_input">
 					<img src="/web_oppo/index.php/Home/Register/VerifyCode" id="body_1_form_4_img">
+					<img src="/web_oppo/Public/Home/image/Register/shuaxin.png" id="body_1_form_4_change">
 				</div>
 				<div class="body_1_form_5">
-					<img src="/web_oppo/Public/Home/image/Register/checkboxX.png" id="body_1_form_5_image">
+					<img src="/web_oppo/Public/Home/image/Register/checkboxX.png" id="body_1_form_5_image" status="0">
 					<span>我已阅读并同意</span>
 					<a href="#">《OPPO服务协议》</a>
 				</div>

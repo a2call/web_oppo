@@ -20,7 +20,7 @@
 				</div>
 				<span>4001-666-888</span>
 			</div>
-			<if condition="isset($_SESSION['id'])">
+			<if condition="!isset($_SESSION['id'])">
 				<div class="right">
 					<a href="__APP__/Home/Login/index">登录</a>
 					<div class="right_diver"></div>

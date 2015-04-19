@@ -28,5 +28,24 @@ $('#submit').click(function(){
 });
 
 $('#body_1_form_4_img').click(function(){
-	$(this).attr("src", "http://localhost/web_oppo/index.php/Home/Register/VerifyCode?Math.random()");
+	change_verify(this);
+});
+
+function change_verify(obj){
+	$(obj).attr("src", "http://localhost/web_oppo/index.php/Home/Register/VerifyCode?Math.random()");
+}
+
+$('#body_1_form_4_change').click(function(){
+	change_verify($('#body_1_form_4_img'));
+});
+
+$('#body_1_form_5_image').click(function(){
+	if($('#body_1_form_5_image').attr("status") == 0)
+	{
+		$('#body_1_form_5_image').attr("src", "/web_oppo/Public/Home/image/Register/checkbox2.png");
+		$('#body_1_form_5_image').attr("status", "1");
+	}else{
+		$('#body_1_form_5_image').attr("src", "/web_oppo/Public/Home/image/Register/checkboxX.png");
+		$('#body_1_form_5_image').attr("status", "0");
+	}
 });
