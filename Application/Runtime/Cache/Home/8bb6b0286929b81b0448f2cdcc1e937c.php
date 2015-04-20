@@ -34,7 +34,7 @@
 			<form method="post" action="/web_oppo/index.php/Home/Register/insert">
 				<div class="body_1_form_1">
 					<span class="form_left_span" id="form_left_span1">登录名:</span>
-					<input type="text" placeholder="手机/邮箱" id="body_1_form_1_input" maxlength="16" name="username">
+					<input type="text" placeholder="手机/邮箱" id="body_1_form_1_input" maxlength="33" name="username">
 					<span id="form_1_info_1">(目前仅支持移动、联通手机号码段)</span>
 					<img id="form_1_info_1_img" src="/web_oppo/Public/Home/image/Register/ex.png">
 					<span id="form_1_info_1_1">请输入邮箱/手机号码</span>
@@ -60,11 +60,16 @@
 					<input type="text" placeholder="验证码" id="body_1_form_4_input">
 					<img src="/web_oppo/index.php/Home/Register/VerifyCode" id="body_1_form_4_img">
 					<img src="/web_oppo/Public/Home/image/Register/shuaxin.png" id="body_1_form_4_change">
+					<img src="/web_oppo/Public/Home/image/Register/ex.png" id="body_1_form_4_info_img">
+					<span id="body_1_form_4_info_1">请输入验证码</span>
+					<span id="body_1_form_4_info_2">验证码错误</span>
 				</div>
 				<div class="body_1_form_5">
 					<img src="/web_oppo/Public/Home/image/Register/checkboxX.png" id="body_1_form_5_image" status="0">
 					<span>我已阅读并同意</span>
 					<a href="#">《OPPO服务协议》</a>
+					<img id="body_1_form_5_info_img" src="/web_oppo/Public/Home/image/Register/ex.png">
+					<span id="body_1_form_5_info_1">请阅读并勾选同意选项</span>
 				</div>
 				<input type="button" id="submit" value="同意协议并注册">
 			</form>

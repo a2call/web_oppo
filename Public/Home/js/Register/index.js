@@ -71,7 +71,7 @@ function checkPasswd(obj){
 		$('#form_1_info_2_img').show();
 		$('#form_1_info_2_2').show();
 	}else{
-		$(obj).attr("satus", "1");
+		$(obj).attr("status", "1");
 	}
 }
 
@@ -105,17 +105,87 @@ function checkRePasswd(obj){
 	$('#form_1_info_3_img').show();
 }
 
+$('#body_1_form_4_input').focus(function(){
+	$('#body_1_form_4_info_img').hide();
+	$('#body_1_form_4_info_1').hide();
+	$('#body_1_form_4_info_2').hide();
+	$(this).attr("status", "0");
+});
+
+$('#body_1_form_4_input').blur(function(){
+	$('#body_1_form_4_info_img').hide();
+	$('#body_1_form_4_info_1').hide();
+	$('#body_1_form_4_info_2').hide();
+	$(this).attr("status", "0");
+	checkVerifyCode(this);
+});
+
+function checkVerifyCode(obj){
+	var val = $(obj).val();
+	var data = {"code": val};
+
+	if(val.length <= 0){
+		$('#body_1_form_4_info_img').show();
+		$('#body_1_form_4_info_1').show();
+	}else{
+		$.post("checkVerifyCode", data, function(d){
+			if(d == "ok"){
+				$(obj).attr("status", "1");
+				return;
+			}
+			else{
+				$('#body_1_form_4_info_img').show();
+				$('#body_1_form_4_info_2').show();
+			}
+		});
+	}
+}
+
 $('#submit').click(function(){
 	var username = $('#body_1_form_1_input').val();
 	var passwd = $('#body_1_form_2_input').val();
 	var password = $.md5(passwd);
 	var hello = $.md5($('#body_1_form_4_input').val());
 	var data = {"username":username, "passwd":password};
-	$.post("insert",data, function(d){
-		if(d == 'ok'){
-			window.location.href="http://localhost/web_oppo/index.php/Home/Index/index";
-		}
-	});
+
+	if($('#body_1_form_1_input').attr("status") != "1"){
+		$('#form_1_info_1_img').show();
+		$('#form_1_info_1').hide();
+		$('#form_1_info_1_1').show();
+	}
+
+	if($('#body_1_form_2_input').attr("status") != "1"){
+		$('#form_1_info_2_img').show();
+		$('#form_1_info_2_1').show();
+	}
+
+	if($('#body_1_form_3_input').attr("status") != "1"){
+		$('#form_1_info_3_img').show();
+		$('#form_1_info_3_1').show();
+	}
+
+	if($('#body_1_form_4_input').attr("status") != "1"){
+		$('#body_1_form_4_info_img').show();
+		$('#body_1_form_4_info_1').show();
+	}
+
+	if($('#body_1_form_5_image').attr("status") != "1"){
+		$('#body_1_form_5_info_img').show();
+		$("#body_1_form_5_info_1").show();
+	}
+
+	if(($('#body_1_form_1_input').attr("status") == "1") 
+		&& ($('#body_1_form_2_input').attr("status") == "1") 
+		&& ($('#body_1_form_3_input').attr("status") == "1")
+		&& ($('#body_1_form_4_input').attr("status") == "1")
+		&& ($('#body_1_form_5_image').attr("status") == "1")
+	){
+		$.post("insert",data, function(d){
+			if(d == 'ok'){
+				window.location.href="http://localhost/web_oppo/index.php/Home/Index/index";
+			}
+		});
+	}
 });
 
 $('#body_1_form_4_img').click(function(){
@@ -131,6 +201,9 @@ $('#body_1_form_4_change').click(function(){
 });
 
 $('#body_1_form_5_image').click(function(){
+	$('#body_1_form_5_info_img').hide();
+	$("#body_1_form_5_info_1").hide();
+
 	if($('#body_1_form_5_image').attr("status") == 0)
 	{
 		$('#body_1_form_5_image').attr("src", "/web_oppo/Public/Home/image/Register/checkbox2.png");

@@ -11,6 +11,9 @@ class RegisterController extends Controller {
     public function VerifyCode(){
     	$config = array(
     			'length' => 4,
+                'fontSize' => 16,
+                'imageW' => 110,
+                'imageH' => 28,
     		);
     	$Verify = new \Think\Verify($config);
     	return $Verify->entry();
@@ -27,6 +30,10 @@ class RegisterController extends Controller {
         }
     }
 
+    public function showSession(){
+        var_dump($_SESSION);
+    }
+
     public function insert(){
         $sql = M('user');
         $data['username'] = $_POST['username'];
@@ -34,6 +41,23 @@ class RegisterController extends Controller {
 
         $result = $sql->add($data);
         if($result){
+            echo "ok";
+        }else{
+            echo "error";
+        }
+    }
+
+    public function checkVerifyCode(){
+        $config = array(
+                'length' => 4,
+                'fontSize' => 16,
+                'imageW' => 110,
+                'imageH' => 28,
+            );
+        $verify = new \Think\Verify($config);
+        $code = $_POST['code'];
+
+        if($verify->check($code)){
             echo "ok";
         }else{
             echo "error";
