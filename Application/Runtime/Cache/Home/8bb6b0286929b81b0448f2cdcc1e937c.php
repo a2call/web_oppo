@@ -36,14 +36,24 @@
 					<span class="form_left_span" id="form_left_span1">登录名:</span>
 					<input type="text" placeholder="手机/邮箱" id="body_1_form_1_input" maxlength="16" name="username">
 					<span id="form_1_info_1">(目前仅支持移动、联通手机号码段)</span>
+					<img id="form_1_info_1_img" src="/web_oppo/Public/Home/image/Register/ex.png">
+					<span id="form_1_info_1_1">请输入邮箱/手机号码</span>
+					<span id="form_1_info_1_2">用户名已存在</span>
+					<span id="form_1_info_1_3">请输入正确的邮箱/手机号码</span>
 				</div>
 				<div class="body_1_form_2">
 					<span class="form_left_span" id="form_left_span2">登录密码:</span>
-					<input type="password" placeholder="6~16位数字、字母或字符组合的密码" maxlength="16" name="passwd" id="body_1_form_2_input">
+					<input type="password" placeholder="6~32位数字、字母或字符组合的密码" maxlength="32" name="passwd" id="body_1_form_2_input">
+					<img id="form_1_info_2_img" src="/web_oppo/Public/Home/image/Register/ex.png">
+					<span id="form_1_info_2_1">请输入注册密码</span>
+					<span id="form_1_info_2_2">请输入6~32位的密码</span>
 				</div>
 				<div class="body_1_form_3">
 					<span class="form_left_span" id="form_left_span3">确认密码:</span>
-					<input type="password" placeholder="重复输入密码" maxlength="16">
+					<input type="password" placeholder="重复输入密码" maxlength="32" id="body_1_form_3_input">
+					<img id="form_1_info_3_img" src="/web_oppo/Public/Home/image/Register/ex.png">
+					<span id="form_1_info_3_1">请输入密码</span>
+					<span id="form_1_info_3_2">两次输入的密码不一致</span>
 				</div>
 				<div class="body_1_form_4">
 					<span class="form_left_span">图片验证码:</span>
