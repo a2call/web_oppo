@@ -36,9 +36,9 @@
 				</div>
 			<?php else: ?>
 				<div class="right_1">
-					<a href="#">用户名</a>
+					<a href="#"><?php echo ($_SESSION['username']); ?></a>
 					<div class="right_diver"></div>
-					<a href="#">退出</a>
+					<a href="#" id="index_header_right_1_logout">退出</a>
 					<div class="right_diver"></div>
 					<a href="#">积分兑换</a>
 					<div class="right_diver"></div>

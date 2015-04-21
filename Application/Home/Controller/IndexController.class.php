@@ -5,4 +5,9 @@ class IndexController extends Controller {
     public function index(){
         $this->display();
     }
+
+    public function logout(){
+    	session(null);
+    	$this->display('index');
+    }
 }

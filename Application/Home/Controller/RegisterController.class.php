@@ -37,6 +37,8 @@ class RegisterController extends Controller {
 
         $result = $sql->add($data);
         if($result){
+            $_SESSION['id'] = $result;
+            $_SESSION['username'] = $data['username'];
             echo "ok";
         }else{
             echo "error";

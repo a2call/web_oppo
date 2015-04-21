@@ -5,6 +5,7 @@
 	<title>OPPO官方网站-欢迎登录OPPO.COM</title>
 	<link rel="stylesheet" type="text/css" href="/web_oppo/Public/Home/css/login.css">
 	<script type="text/javascript" src="/web_oppo/Public/Home/js/jquery.js"></script>
+	<script type="text/javascript" src="/web_oppo/Public/Home/js/jquery.md5.js"></script>
 </head>
 <body>
 	<div class="header">
@@ -35,10 +36,10 @@
 						<span>欢迎登录</span>
 					</div>
 					<div class="line2">
-						<input type="text" placeholder="手机/邮箱/会员名">
+						<input type="text" placeholder="手机/邮箱/会员名" id="form_line2_input" status="0">
 					</div>
 					<div class="line3">
-						<input type="password" placeholder="登录密码">
+						<input type="password" placeholder="登录密码" id="form_line3_input" status="0">
 					</div>
 					<div class="line4">
 						<img src="/web_oppo/Public/Home/image/Register/checkboxX.png">
@@ -46,7 +47,12 @@
 						<a href="#">忘记密码?</a>
 					</div>
 					<div class="line5">
-						<button>登录</button>
+						<input type="button" value="登录" id="form_submit">
+					</div>
+					<div class="line_5_for_add">
+						<img src="/web_oppo/Public/Home/image/Register/ex.png" id="line_5_for_add_img">
+						<span id="line_5_for_add_info1">用户名密码不正确</span>
+						<span id="line_5_for_add_info2">用户名或密码填写不完整</span>
 					</div>
 					<div class="line6">
 						<span>其他帐号登录:</span>
