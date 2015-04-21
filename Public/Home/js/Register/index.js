@@ -152,21 +152,26 @@ $('#submit').click(function(){
 		$('#form_1_info_1_img').show();
 		$('#form_1_info_1').hide();
 		$('#form_1_info_1_1').show();
+		$('#form_1_info_1_2').hide();
+		$('#form_1_info_1_3').hide();
 	}
 
 	if($('#body_1_form_2_input').attr("status") != "1"){
 		$('#form_1_info_2_img').show();
 		$('#form_1_info_2_1').show();
+		$('#form_1_info_2_2').hide();
 	}
 
 	if($('#body_1_form_3_input').attr("status") != "1"){
 		$('#form_1_info_3_img').show();
 		$('#form_1_info_3_1').show();
+		$('#form_1_info_3_2').hide();
 	}
 
 	if($('#body_1_form_4_input').attr("status") != "1"){
 		$('#body_1_form_4_info_img').show();
 		$('#body_1_form_4_info_1').show();
+		$('#body_1_form_4_info_2').hide();
 	}
 
 	if($('#body_1_form_5_image').attr("status") != "1"){

@@ -30,10 +30,6 @@ class RegisterController extends Controller {
         }
     }
 
-    public function showSession(){
-        var_dump($_SESSION);
-    }
-
     public function insert(){
         $sql = M('user');
         $data['username'] = $_POST['username'];
