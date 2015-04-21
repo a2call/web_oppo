@@ -56,7 +56,21 @@
 		</div>
 	</div>
 	<div class="index_header2">
-		
+		<div class="container">
+			<div class="left">
+				<img src="/web_oppo/Public/Home/image/Index/logo.png">
+			</div>
+			<div class="right">
+				<a href="#">首页</a>
+				<a href="#">手机</a>
+				<a href="#">配件</a>
+				<a href="#">服务</a>
+				<a href="#">体验店</a>
+				<a href="#">软件商店</a>
+				<a href="#">ColorOS</a>
+				<a href="#">社区</a>
+			</div>
+		</div>
 	</div>
 	<div class="index_third">
 		

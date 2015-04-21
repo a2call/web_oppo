@@ -55,6 +55,7 @@ body{
 	width: 360px;
 	height: 38px;
 	float: right;
+	margin-right: 8px;
 }
 
 .index_header .index_header_container .right .right_for_image{
@@ -103,6 +104,7 @@ body{
 .index_header .index_header_container .right_1{
 	height: 38px;
 	float: right;
+	margin-right: 8px;
 }
 
 .index_header .index_header_container .right_1 a{
@@ -145,3 +147,46 @@ body{
 }
 
 /* END: 头部 */
+
+/* BEGIN: 第二个头 */
+.index_header2{
+	width: 100%;
+	height: 85px;
+	background: #FFF;
+	border-bottom: 3px solid #E2E2E3;
+}
+
+.index_header2 .container{
+	width: 1200px;
+	height: 85px;
+	margin: 0 auto;
+}
+
+.index_header2 .container .left{
+	width: 180px;
+	height: 85px;
+	float: left;
+}
+
+.index_header2 .container .right{
+	width: 600px;
+	height: 85px;
+	float: right;
+}
+
+.index_header2 .container .right a{
+	font-size: 15px;
+	color: #000;
+	font-weight: bold;
+	line-height: 85px;
+	margin-left: 30px;
+}
+
+.index_header2 .container .right a:hover{
+	font-size: 15px;
+	color: #00927F;
+	font-weight: bold;
+	line-height: 85px;
+	margin-left: 30px;
+}
+/* END: 第二个头 */
