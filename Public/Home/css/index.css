@@ -217,6 +217,39 @@ body{
 	position: relative;
 }
 
+.index_third .bg_center #bg_center_1_1{
+}
+
+.index_third .bg_center #bg_center_1_2{
+	top: -630px;
+	left: -150%;
+	display: none;
+}
+
+.index_third .bg_center #bg_center_1_3{
+	top: -1260px;
+	left: -150%;
+	display: none;
+}
+
+.index_third .bg_center #bg_center_1_3_add{
+	top: -1890px;
+	left: -150px;
+	display: none;
+}
+
+.index_third .bg_center #bg_center_1_4{
+	top: -2520px;
+	left: -150%;
+	display: none;
+}
+
+.index_third .bg_center #bg_center_1_4_add{
+	top: -3150px;
+	left: -150%;
+	display: none;
+}
+
 .index_third .bg_select{
 	position: relative;
 	width: 100%;

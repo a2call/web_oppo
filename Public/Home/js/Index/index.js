@@ -33,11 +33,33 @@ var time = setInterval(function(){
 		img = 0;
 	}
 
-	$('.bg_center_1').eq(img).animate({"left":0}, 800, function(){
+	$('.bg_center_img_1').eq(img).fadeIn(1300);
+
+	$('.bg_center_img_1').eq(img).delay(3000).fadeOut(800, function(){
+	});
+
+	$('.bg_center_1').eq(img).show();
+	$('.bg_center_1').eq(img).animate({"left":0}, 600, function(){
 		$(this).delay(2800).animate({"left":"150%"},800,function(){
 			$(this).css({"left":"-150%"});
 		});
 	});
+
+	if(img == 2){
+		$('#bg_center_1_3_add').show();
+		$('#bg_center_1_3_add').animate({"left":0}, 600, function(){
+			$(this).delay(2800).animate({"left":"150%"},800,function(){
+				$(this).css({"left":"-150%"});
+			});
+		});
+	}else if(img == 3){
+		$('#bg_center_1_4_add').show();
+		$('#bg_center_1_4_add').animate({"left":0}, 600, function(){
+			$(this).delay(2800).animate({"left":"150%"},800,function(){
+				$(this).css({"left":"-150%"});
+			});
+		});
+	}
 
 	img++;
 },5500);
