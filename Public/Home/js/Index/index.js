@@ -16,3 +16,28 @@ $('#index_header_right_1_logout').click(function(){
 		window.location.href="http://localhost/web_oppo";
 	});
 });
+
+var timeline = setInterval(function(){
+
+	$("#bg_select_line_2").animate({"width":1180},3500,function(){
+		$("#bg_select_line_2").css({"width":0});
+	});
+
+},5500);
+
+var img = 0;
+
+var time = setInterval(function(){
+
+	if(img == 4){
+		img = 0;
+	}
+
+	$('.bg_center_1').eq(img).animate({"left":0}, 800, function(){
+		$(this).delay(2800).animate({"left":"150%"},800,function(){
+			$(this).css({"left":"-150%"});
+		});
+	});
+
+	img++;
+},5500);

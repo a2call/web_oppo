@@ -78,10 +78,14 @@
 			<img src="/web_oppo/Public/Home/image/Index/20150421190010_14pJhp.jpg">
 		</div>
 		<div class="bg_center">
-			<img src="/web_oppo/Public/Home/image/Index/20150421185945_a1J6y3.png">
+			<img src="/web_oppo/Public/Home/image/Index/20150421185945_a1J6y3.png" class="bg_center_1">
 		</div>
 		<div class="bg_select">
 			
+		</div>
+		<div class="bg_select_line">
+			<div class="line1" id="bg_select_line_1"></div>
+			<div class="line2" id="bg_select_line_2"></div>
 		</div>
 	</div>
 

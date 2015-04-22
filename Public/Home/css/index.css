@@ -192,7 +192,8 @@ body{
 /* BEGIN: 第三部分 */
 .index_third{
 	width: 100%;
-	height: 630px;
+	height: 632px;
+	overflow: hidden;
 }
 
 .index_third .bg{
@@ -213,7 +214,7 @@ body{
 }
 
 .index_third .bg_center img{
-
+	position: relative;
 }
 
 .index_third .bg_select{
@@ -226,7 +227,36 @@ body{
 	opacity: 0.75;
 }
 
+.index_third .bg_select_line{
+	width: 1180px;
+	height: 2px;
+	margin: 0 auto;
+	position: relative;
+	top: -55px;
+	z-index: 2;
+}
 
+.index_third .bg_select_line .line1{
+	width: 1180px;
+	height: 3px;
+	background: #B2B2B2;
+}
+
+.index_third .bg_select_line .line2{
+	width: 0px;
+	height: 3px;
+	background: #00927F;
+	position: relative;
+	top: -3px;
+}
+
+/* END: 第三部分 */
+
+/* BEGIN: 第三部分 */
+.index_four{
+	width: 100%;
+	height: 100px;
+}
 /* END: 第三部分 */
 
 /* BEGIN: 底部 */
