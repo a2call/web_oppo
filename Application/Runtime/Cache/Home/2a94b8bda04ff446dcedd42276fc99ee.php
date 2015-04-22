@@ -72,8 +72,38 @@
 			</div>
 		</div>
 	</div>
+
 	<div class="index_third">
+		<div class="bg">
+			<img src="/web_oppo/Public/Home/image/Index/20150421190010_14pJhp.jpg">
+		</div>
+		<div class="bg_center">
+			<img src="/web_oppo/Public/Home/image/Index/20150421185945_a1J6y3.png">
+		</div>
+		<div class="bg_select">
+			
+		</div>
+	</div>
+
+	<div class="index_four">
 		
+	</div>
+	<div class="bottom">
+		<div class="container">
+			<div class="left">
+				<img src="/web_oppo/Public/Home/image/Register/logo_f.png">
+				<span>© 2005 - 2015 广东欧珀电子工业有限公司 版权所有 (</span>
+				<a href="#">粤ICP备 08130115 号</a>
+				<span>)</span>
+			</div>
+			<div class="right">
+				<a href="#">版权说明</a>
+				<a href="#">使用协议</a>
+				<a href="#">网站地图</a>
+				<a href="#">友情链接</a>
+				<a href="#">联系我们</a>
+			</div>
+		</div>
 	</div>
 </body>
 <script type="text/javascript" src="/web_oppo/Public/Home/js/Index/index.js"></script>
