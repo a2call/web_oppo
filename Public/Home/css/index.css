@@ -260,6 +260,21 @@ body{
 	opacity: 0.75;
 }
 
+.index_third .bg_select .bg_select_contaner{
+	width: 90px;
+	margin: 0 auto;
+	height: 74px;
+}
+
+.index_third .bg_select .bg_slect_1{
+	width: 16px;
+	height: 16px;
+	background: url("/web_oppo/Public/Home/image/Index/icons.png") no-repeat;
+	background-position: -257px -929px;
+	margin-top: 32px;
+	float: left;
+}
+
 .index_third .bg_select_line{
 	width: 1180px;
 	height: 2px;
