@@ -76,17 +76,17 @@
 	<div class="index_third">
 		<div class="bg">
 			<img src="/web_oppo/Public/Home/image/Index/20150418003626_v45QvO.jpg" class="bg_center_img_1">
-			<!-- <img src="/web_oppo/Public/Home/image/Index/20150421190010_14pJhp.jpg" class="bg_center_img_1">
+			<img src="/web_oppo/Public/Home/image/Index/20150421190010_14pJhp.jpg" class="bg_center_img_1">
 			<img src="/web_oppo/Public/Home/image/Index/20150409094829_xJlCyb.jpg" class="bg_center_img_1">
-			<img src="/web_oppo/Public/Home/image/Index/20150313135243_8DbjGq.jpg" class="bg_center_img_1"> -->
+			<img src="/web_oppo/Public/Home/image/Index/20150313135243_8DbjGq.jpg" class="bg_center_img_1">
 		</div>
 		<div class="bg_center">
 			<img src="/web_oppo/Public/Home/image/Index/20150418003626_m4nFmi.png" class="bg_center_1" id="bg_center_1_1">
-			<!-- <img src="/web_oppo/Public/Home/image/Index/20150421185945_a1J6y3.png" class="bg_center_1" id="bg_center_1_2">
+			<img src="/web_oppo/Public/Home/image/Index/20150421185945_a1J6y3.png" class="bg_center_1" id="bg_center_1_2">
 			<img src="/web_oppo/Public/Home/image/Index/20150417100311_YkFNid.png" class="bg_center_1" id="bg_center_1_3">
 			<img src="/web_oppo/Public/Home/image/Index/20150409094829_0B17Qw.png" id="bg_center_1_3_add">
 			<img src="/web_oppo/Public/Home/image/Index/20150421101940_hv0yBM.png" class="bg_center_1" id="bg_center_1_4">
-			<img src="/web_oppo/Public/Home/image/Index/20150313135243_aXzSb5.png" id="bg_center_1_4_add"> -->
+			<img src="/web_oppo/Public/Home/image/Index/20150313135243_aXzSb5.png" id="bg_center_1_4_add">
 		</div>
 		<div class="bg_select">
 			<div class="bg_select_contaner">
@@ -104,6 +104,89 @@
 	<div class="index_four">
 		
 	</div>
+
+	<div class="bottom_2">
+		<div class="container">
+			<div class="foot_tag1 animate"></div>
+			<div class="foot_tag2 animate"></div>
+			<div class="foot_tag3 animate"></div>
+			<div class="foot_tag4 animate"></div>
+			<div class="foot_tag5 animate"></div>
+		</div>
+	</div>
+
+	<div class="bottom_1">
+		<div class="container">
+			<div class="row">
+				<span class="row_title">关于我们</span>
+				<ul>
+					<li><a href="#">关于OPPO</a></li>
+					<li><a href="#">新闻中心</a></li>
+					<li><a href="#">人才招聘</a></li>
+				</ul>
+			</div>
+			<div class="row">
+				<span class="row_title">推荐机型</span>
+				<ul>
+					<li><a href="#">Find7</a></li>
+					<li><a href="#">Find5</a></li>
+					<li><a href="#">N1</a></li>
+					<li><a href="#">R1</a></li>
+				</ul>
+			</div>
+			<div class="row">
+				<span class="row_title">购物相关</span>
+				<ul>
+					<li><a href="#">帮助中心</a></li>
+					<li><a href="#">周边产品</a></li>
+					<li><a href="#">OPPO体验店</a></li>
+					<li><a href="#">客户服务政策</a></li>
+				</ul>
+			</div>
+			<div class="row">
+				<span class="row_title">会员中心</span>
+				<ul>
+					<li><a href="#">用户注册</a></li>
+					<li><a href="#">会员注册</a></li>
+					<li><a href="#">会员登录</a></li>
+				</ul>
+			</div>
+			<div class="row">
+				<span class="row_title">关注我们</span>
+				<ul>
+					<li><img src="#"><a href="#">新浪微博</a></li>
+					<li><img src="#"><a href="#">腾讯微博</a></li>
+					<li><img src="#"><a href="#">人人网</a></li>
+					<li><img src="#"><a href="#">QQ空间</a></li>
+				</ul>
+			</div>
+			<div class="row_1">
+				<span class="row_title">联系我们</span>
+				<ul>
+					<li>
+						<div class="left">
+							<img src="#">
+						</div>
+						<div class="right">
+							<span>4001-666-888</span></br>
+							<span>7*24小时客服电话</span>
+						</div>
+					</li>
+					<li>
+						<div class="left">
+							<img src="#">
+						</div>
+						<div class="right">
+							<span>在线客服</span></br>
+							<img src="#"></br>
+							<span>服务时段：8：30-22：00</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
 	<div class="bottom">
 		<div class="container">
 			<div class="left">
