@@ -365,7 +365,7 @@ body{
 	width: 1180px;
 	height: 220px;
 	margin: 0 auto;
-	padding-top: 20px;
+	margin-top: 20px;
 }
 
 .bottom_1 .container .row{
@@ -377,11 +377,96 @@ body{
 .bottom_1 .container .row_1{
 	height: 220px;
 	float: left;
+	margin-right: 10px;
 }
 
 .bottom_1 .container .row_title{
 	font-size: 14px;
 	font-weight: bold;
+	line-height: 25px;
+	margin-left: 7px;
+}
+
+.bottom_1 .container .row a{
+	display: block;
+	background: url("/web_oppo/Public/Home/image/Index/icons.png") no-repeat scroll -330px -1007px;
+	padding: 5px 10px;
+	font-size: 12px;
+	color: #838383;
+}
+
+.bottom_1 .container .row a:hover{
+	color: #00927F;
+}
+
+.bottom_1 .container .row .row_other_1{
+	background-position: 0px -878px;
+	padding-left: 25px;
+	width: 80px;
+}
+
+.bottom_1 .container .row .row_other_1:hover{
+	background-position: -144px -878px;
+}
+
+.bottom_1 .container .row .row_other_2{
+	background-position: 0px -906px;
+	padding-left: 25px;
+	width: 80px;
+}
+
+.bottom_1 .container .row .row_other_2:hover{
+	background-position: -144px -906px; 
+}
+
+.bottom_1 .container .row .row_other_3{
+	background-position: 0px -935px;
+	padding-left: 25px;
+	width: 80px;
+}
+
+.bottom_1 .container .row .row_other_3:hover{
+	background-position: -144px -935px; 
+}
+
+.bottom_1 .container .row .row_other_4{
+	background-position: 0px -850px;
+	padding-left: 25px;
+	width: 80px;
+}
+
+.bottom_1 .container .row .row_other_4:hover{
+	background-position: -144px -850px; 
+}
+
+.bottom_1 .container .row_1{
+	float: left;
+	width: 220px;
+}
+
+.bottom_1 .container .row_1 .second{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.bottom_1 .container .row_1 .left{
+	float: left;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+.bottom_1 .container .row_1 .right .span_1{
+	font-size: 22px;
+	color: #00927F;
+}
+
+.bottom_1 .container .row_1 .right .span_2{
+	font-size: 12px;
+	color: #838383;
+}
+
+.bottom_1 .container .row_1 .third{
+	cursor: pointer;
 }
 /* END: 底部1 */
 
