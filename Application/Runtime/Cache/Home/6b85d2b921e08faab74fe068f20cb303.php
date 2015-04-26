@@ -61,7 +61,7 @@
 				<img src="/web_oppo/Public/Home/image/Index/logo.png">
 			</div>
 			<div class="right">
-				<a href="#">首页</a>
+				<a href="/web_oppo/index.php/Home/Index/index">首页</a>
 				<a href="#">手机</a>
 				<a href="#">配件</a>
 				<a href="#">服务</a>
@@ -71,6 +71,9 @@
 				<a href="#">社区</a>
 			</div>
 		</div>
+	</div>
+	<div class="index_header_3">
+		<img src="/web_oppo/Public/Home/image/Phone/142491883858521.jpg">
 	</div>
 
 	<div class="index_four">
@@ -164,5 +167,5 @@
 		</div>
 	</div>
 </body>
-<script type="text/javascript" src="/web_oppo/Public/Home/js/Index/index.js"></script>
+<script type="text/javascript" src="/web_oppo/Public/Home/js/Phone/phone.js"></script>
 </html>
