@@ -62,7 +62,7 @@
 			</div>
 			<div class="right">
 				<a href="#">首页</a>
-				<a href="#">手机</a>
+				<a href="/web_oppo/index.php/Home/Phone/index">手机</a>
 				<a href="#">配件</a>
 				<a href="#">服务</a>
 				<a href="#">体验店</a>
