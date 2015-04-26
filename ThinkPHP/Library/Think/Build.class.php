@@ -24,11 +24,11 @@ class [CONTROLLER]Controller extends Controller {
 }';
 
     static protected $model         =   '<?php
-namespace [MODULE]\Model;
-use Think\Model;
-class [MODEL]Model extends Model {
+    namespace [MODULE]\Model;
+    use Think\Model;
+    class [MODEL]Model extends Model {
 
-}';
+    }';
     // 检测应用目录是否需要自动创建
     static public function checkDir($module){
         if(!is_dir(APP_PATH.$module)) {
