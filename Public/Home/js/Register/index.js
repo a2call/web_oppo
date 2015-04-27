@@ -1,5 +1,5 @@
 $('.left_img_1').click(function(){
-	window.location.href="http://localhost/web_oppo/index.php/Home/Index/index";
+	window.location.href="/web_oppo/index.php/Home/Index/index";
 });
 
 $('#body_1_form_1_input').focus(function(){
@@ -187,7 +187,7 @@ $('#submit').click(function(){
 	){
 		$.post("insert",data, function(d){
 			if(d == 'ok'){
-				window.location.href="http://localhost/web_oppo/index.php/Home/Index/index";
+				window.location.href="/web_oppo/index.php/Home/Index/index";
 			}
 		});
 	}
@@ -198,7 +198,7 @@ $('#body_1_form_4_img').click(function(){
 });
 
 function change_verify(obj){
-	$(obj).attr("src", "http://localhost/web_oppo/index.php/Home/Register/VerifyCode?Math.random()");
+	$(obj).attr("src", "/web_oppo/index.php/Home/Register/VerifyCode?Math.random()");
 }
 
 $('#body_1_form_4_change').click(function(){
