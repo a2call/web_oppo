@@ -190,11 +190,30 @@ body{
 /* END: 第二个头 */
 
 /* BEGIN: 第三部分 */
-.index_four{
+.index_header_3{
+	height: 444px;
+}
+
+.index_header_3 img{
 	width: 100%;
-	height: 100px;
 }
 /* END: 第三部分 */
+
+/* BEGIN: 第四部分 */
+.index_four{
+	width: 100%;
+	height: 180px;
+	background: #FFF;
+}
+/* END: 第四部分 */
+
+/* BEGIN: 第五部分 */
+.index_five{
+	width: 100%;
+	height: 600px;
+	background: #F6F6F6;
+}
+/* END: 第五部分 */
 
 /* BEGIN: 底部2 */
 .bottom_2{
