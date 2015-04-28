@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50617
 File Encoding         : 65001
 
-Date: 2015-04-28 01:19:42
+Date: 2015-04-29 02:24:38
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -20,7 +20,7 @@ SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 DROP TABLE IF EXISTS `web_phone`;
 CREATE TABLE `web_phone` (
-  `id` int(32) unsigned NOT NULL,
+  `id` int(32) unsigned NOT NULL AUTO_INCREMENT,
   `pname` varchar(64) NOT NULL,
   `type` tinyint(2) unsigned NOT NULL,
   `network` tinyint(3) unsigned NOT NULL,
@@ -31,4 +31,4 @@ CREATE TABLE `web_phone` (
   `status` tinyint(1) DEFAULT '0',
   `priced` smallint(16) DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;

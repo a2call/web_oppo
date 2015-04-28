@@ -23,3 +23,11 @@ $(".animate").hover(function(){
 },function(){
 	$(this).animate({"marginTop":"0"},100);
 });
+
+$(function(){
+	var num = $('.phone').length;
+	var line = Math.ceil(num / 4);
+	var lineHeight = $('.index_five .container .phone').height();
+	$('.index_five .container ul').height(line*lineHeight);
+	$('.index_five .container').height(line*lineHeight);
+});
