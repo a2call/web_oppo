@@ -11,6 +11,7 @@ class PhoneController extends Controller {
 
     	$res = $phone->where('status = 0')->order('id desc')->limit($Page->firstRow, $Page->listRows)->select();
     	$this->assign("data", $res);
+    	$this->assign("show",$show);
         $this->display();
     }
 }

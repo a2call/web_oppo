@@ -143,19 +143,22 @@
 
 	<div class="index_five">
 		<div class="container">
-			<ul>
-				<?php if(is_array($data)): foreach($data as $key=>$each): ?><li>
-						<div class="phone">
-							<img src="/web_oppo/Public/Home/image/Phone/142500475555828.png">
+			<?php if(is_array($data)): foreach($data as $key=>$each): ?><div class="phone">
+						<img src="/web_oppo/Public/Home/image/Phone/142500475555828.png">
+						<div class="phone_description">
 							<span>支持移动&联通双4G网络</span>
-							<span>N3移动&联通双4G版</span>
-							<div>
-								<span>￥3999</span>
-								<img src="/web_oppo/Public/Home/image/Phone/tag.png">
-							</div>
 						</div>
-					</li><?php endforeach; endif; ?>
-			</ul>
+						<div class="phone_name">
+							<span>N3移动&联通双4G版</span>
+						</div>
+						<div class="phone_price">
+							<span>￥3999</span>
+							<img src="/web_oppo/Public/Home/image/Phone/tag.png">
+						</div>
+					</div><?php endforeach; endif; ?>
+		</div>
+		<div class="nav">
+			<?php echo ($show); ?>
 		</div>
 	</div>
 

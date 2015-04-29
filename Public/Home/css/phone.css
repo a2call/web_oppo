@@ -215,7 +215,7 @@ body{
 
 .index_four .container .index_four_left{
 	width: 400px;
-	height: 180px;
+	height: 160px;
 	float: left;
 	margin-left: 30px;
 }
@@ -273,7 +273,6 @@ body{
 .index_five .container .phone{
 	width: 295px;
 	height: 460px;
-	background: #FF0;
 	float: left;
 }
 
@@ -283,11 +282,53 @@ body{
 	padding-top: 30px;
 }
 
-.index_five .container ul li{
-	list-style-type: none;
-	width: 295px;
-	height: 460px;
+.index_five .container .phone .phone_description{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.index_five .container .phone .phone_description span{
+	font-size: 14px;
+	color: #878787;
+	margin: 0 auto;
+}
+
+.index_five .container .phone .phone_name{
+	text-align: center;
+}
+
+.index_five .container .phone .phone_name span{
+	font-size: 14px;
+	color: #000;
+	margin: 0 auto;
+}
+
+.index_five .container .phone .phone_price{
+	text-align: center;
+	margin-top: 3px;
+}
+
+.index_five .container .phone .phone_price span{
 	float: left;
+	margin-left: 110px;
+	font-size: 16px;
+	color: #00927F;
+}
+
+.index_five .container .phone .phone_price img{
+	float: left;
+	padding-top: 4px;
+	margin-left: 10px;
+}
+
+.index_five .nav{
+	width: 200px;
+	height: 20px;
+	margin: 0 auto;
+}
+
+.index_five .nav .current{
+	color: #F00;
 }
 /* END: 第五部分 */
 
