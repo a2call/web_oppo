@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf8">
 	<title>『OPPO智能手机商城』OPPO最新手机大全_报价_参数_评测-OPPO智能手机官网</title>
-	<link rel="stylesheet" type="text/css" href="/web_oppo/Public/Home/css/phone.css">
-	<script type="text/javascript" src="/web_oppo/Public/Home/js/jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="/Public/Home/css/phone.css">
+	<script type="text/javascript" src="/Public/Home/js/jquery.js"></script>
 </head>
 <body>
 	<div class="index_header">
@@ -12,25 +12,25 @@
 			<div class="left">
 				<div class="left_left">
 					<a href="#">
-						<img src="/web_oppo/Public/Home/image/Index/i-h-sinawb.png" id="index_header_left_image_1">
+						<img src="/Public/Home/image/Index/i-h-sinawb.png" id="index_header_left_image_1">
 					</a>
 					<a href="#">
-						<img src="/web_oppo/Public/Home/image/Index/i-h-qqwb.png" id="index_header_left_image_2">
+						<img src="/Public/Home/image/Index/i-h-qqwb.png" id="index_header_left_image_2">
 					</a>
 				</div>
 				<span>4001-666-888</span>
 			</div>
 			<?php if(!isset($_SESSION['id'])): ?><div class="right">
-					<a href="/web_oppo/index.php/Home/Login/index">登录</a>
+					<a href="/index.php/Home/Login/index">登录</a>
 					<div class="right_diver"></div>
-					<a href="/web_oppo/index.php/Home/Register/index">注册</a>
+					<a href="/index.php/Home/Register/index">注册</a>
 					<div class="right_diver"></div>
 					<a>积分兑换</a>
 					<div class="right_diver"></div>
 					<a>帮助中心</a>
 					<div class="right_diver"></div>
 					<div class="right_for_image">
-						<img src="/web_oppo/Public/Home/image/Index/i-h-gwc.png">
+						<img src="/Public/Home/image/Index/i-h-gwc.png">
 					</div>
 					<a>购物车</a>
 				</div>
@@ -49,7 +49,7 @@
 					<a href="#">MY OPPO</a>
 					<div class="right_diver"></div>
 					<div class="right_for_image">
-						<img src="/web_oppo/Public/Home/image/Index/i-h-gwc.png">
+						<img src="/Public/Home/image/Index/i-h-gwc.png">
 					</div>
 					<a>购物车</a>
 				</div><?php endif; ?>
@@ -58,10 +58,10 @@
 	<div class="index_header2">
 		<div class="container">
 			<div class="left">
-				<img src="/web_oppo/Public/Home/image/Index/logo.png">
+				<img src="/Public/Home/image/Index/logo.png">
 			</div>
 			<div class="right">
-				<a href="/web_oppo/index.php/Home/Index/index">首页</a>
+				<a href="/index.php/Home/Index/index">首页</a>
 				<a href="#">手机</a>
 				<a href="#">配件</a>
 				<a href="#">服务</a>
@@ -73,7 +73,7 @@
 		</div>
 	</div>
 	<div class="index_header_3">
-		<img src="/web_oppo/Public/Home/image/Phone/142491883858521.jpg">
+		<img src="/Public/Home/image/Phone/142491883858521.jpg">
 	</div>
 
 	<div class="index_four">
@@ -144,7 +144,7 @@
 	<div class="index_five">
 		<div class="container">
 			<?php if(is_array($data)): foreach($data as $key=>$each): ?><div class="phone">
-						<img src="/web_oppo/Public/Home/image/Phone/142500475555828.png">
+						<img src="/Public/Home/image/Phone/142500475555828.png">
 						<div class="phone_description">
 							<span>支持移动&联通双4G网络</span>
 						</div>
@@ -153,7 +153,7 @@
 						</div>
 						<div class="phone_price">
 							<span>￥3999</span>
-							<img src="/web_oppo/Public/Home/image/Phone/tag.png">
+							<img src="/Public/Home/image/Phone/tag.png">
 						</div>
 					</div><?php endforeach; endif; ?>
 		</div>
@@ -197,8 +197,8 @@
 			<div class="row">
 				<span class="row_title">会员中心</span>
 				<a href="#">产品注册</a>
-				<a href="/web_oppo/index.php/Home/Register/index">会员注册</a>
-				<a href="/web_oppo/index.php/Home/Login/index">会员登录</a>
+				<a href="/index.php/Home/Register/index">会员注册</a>
+				<a href="/index.php/Home/Login/index">会员登录</a>
 			</div>
 			<div class="row">
 				<span class="row_title">关注我们</span>
@@ -211,7 +211,7 @@
 				<span class="row_title">联系我们</span>
 				<div class="second">
 					<div class="left">
-						<img src="/web_oppo/Public/Home/image/Index/tel_s.png">
+						<img src="/Public/Home/image/Index/tel_s.png">
 					</div>
 					<div class="right">
 						<span class="span_1">4001-666-888</span></br>
@@ -220,11 +220,11 @@
 				</div>
 				<div class="third">
 					<div class="left">
-						<img src="/web_oppo/Public/Home/image/Index/zxkf.png">
+						<img src="/Public/Home/image/Index/zxkf.png">
 					</div>
 					<div class="right">
 						<span class="span_1">在线客服</span>
-						<img src="/web_oppo/Public/Home/image/Index/zx.png"></br>
+						<img src="/Public/Home/image/Index/zx.png"></br>
 						<span class="span_2">服务时段:8:30-22:00</span>
 					</div>
 				</div>
@@ -235,7 +235,7 @@
 	<div class="bottom">
 		<div class="container">
 			<div class="left">
-				<img src="/web_oppo/Public/Home/image/Register/logo_f.png">
+				<img src="/Public/Home/image/Register/logo_f.png">
 				<span>© 2005 - 2015 广东欧珀电子工业有限公司 版权所有 (</span>
 				<a href="#">粤ICP备 08130115 号</a>
 				<span>)</span>
@@ -250,5 +250,5 @@
 		</div>
 	</div>
 </body>
-<script type="text/javascript" src="/web_oppo/Public/Home/js/Phone/phone.js"></script>
+<script type="text/javascript" src="/Public/Home/js/Phone/phone.js"></script>
 </html>

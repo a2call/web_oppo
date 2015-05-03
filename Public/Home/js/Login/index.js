@@ -1,5 +1,5 @@
 $('.left_img_1').click(function(){
-	window.location.href="http://localhost/web_oppo/index.php/Home/Index/index";
+	window.location.href="http://localhost/index.php/Home/Index/index";
 });
 
 $('#form_line2_input').focus(function(){
@@ -57,7 +57,7 @@ function checkAllWrite(){
 	}else{
 		$.post("Login", data, function(d){
 			if(d == "ok"){
-				window.location.href="http://localhost/web_oppo";
+				window.location.href="http://localhost";
 			}else{
 				$('#line_5_for_add_img').show();
 				$('#line_5_for_add_info1').show();

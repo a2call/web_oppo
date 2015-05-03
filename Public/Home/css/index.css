@@ -269,7 +269,7 @@ body{
 .index_third .bg_select .bg_slect_1{
 	width: 16px;
 	height: 16px;
-	background: url("/web_oppo/Public/Home/image/Index/icons.png") no-repeat;
+	background: url("/Public/Home/image/Index/icons.png") no-repeat;
 	background-position: -257px -929px;
 	margin-top: 32px;
 	float: left;
@@ -326,7 +326,7 @@ body{
 	float: left;
 	height: 125px;
 	width: 236px;
-	background: url("/web_oppo/Public/Home/image/Index/icons.png") no-repeat scroll 0px 0px;
+	background: url("/Public/Home/image/Index/icons.png") no-repeat scroll 0px 0px;
 	cursor: pointer;
 	position: relative;
 }
@@ -389,7 +389,7 @@ body{
 
 .bottom_1 .container .row a{
 	display: block;
-	background: url("/web_oppo/Public/Home/image/Index/icons.png") no-repeat scroll -330px -1007px;
+	background: url("/Public/Home/image/Index/icons.png") no-repeat scroll -330px -1007px;
 	padding: 5px 10px;
 	font-size: 12px;
 	color: #838383;
